@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.content{
+    width: 80%;
+    margin: 50px auto;
+}
+.content li{
+    list-style-type: none;
+}
+/* ===================================================================  */
+/* For navbar  */
+
+/* ===================================================================  */
+/* For compose  */
+.publish{
+    display: flex;
+    flex-direction: column;
+}
+.publish input, .publish textarea{
+    margin:10px;
+}
+.publish button{
+    display: inline-block;
+    width:150px;
+    margin:10px;
+}

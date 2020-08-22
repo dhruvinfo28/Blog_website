@@ -1,0 +1,20 @@
+
+<%- include("header") %>   
+    <!-- content section  -->
+    <section class="content">
+        <ul>
+            <% for(var i=0;i< items.length;i++){ %>
+                <div class="heading">
+                    <h1>
+                       <%= titles[i] %>
+                    </h1>
+                    </div>
+               <li><%= items[i].substring(0,100) %>....
+               <a href="/posts/<%=titles[i] %>">Read more</a>
+            </li>
+               
+          <%  } %> 
+        </ul>
+    </section>
+
+<%- include("footer") %>
